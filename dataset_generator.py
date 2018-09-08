@@ -7,7 +7,6 @@ import numpy as np
 type_of_dataset:
 1 - band-join with three streams
 2 - equi-join with duplicate keys
-3 - equi-join with distinct attribute join with duplicate keys
 """
 
 size = int(sys.argv[1])
