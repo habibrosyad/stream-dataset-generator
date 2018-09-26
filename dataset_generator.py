@@ -13,7 +13,7 @@ size = int(sys.argv[1])
 scenario = int(sys.argv[2]) 
 sep = ' '
 range_min, range_max = 1, 10000
-path = 'scenario' + scenario + '/' + str(size) + '/'
+path = 'scenario' + str(scenario) + '/' + str(size) + '/'
 
 # Make the dataset directory if it doesn't exist yet
 if not os.path.exists(path):
